@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+   
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+    <script defer src="/js/darkMode.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- Internal style for <p> -->
+    <style>
+        main p {
+            font-family: "Playwrite MX", cursive;
+            font-weight: 300; /* Lighter weight for paragraph; adjust as needed */
+            font-size: 1.2em; /* Slightly larger for readability */
+            color: #222831; /* Dark Gray from palette */
+        }
+        /* Optional: Adjust for dark mode */
+        body.dark-mode p {
+            color: #EEEEEE; /* Light Gray for dark mode */
+        }
+    </style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/pages/destinations.html">Destinations</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Add the dropdown for light/dark mode -->
+        <div class="mode-toggle">
+            <select id="theme-select">
+                <option value="light">Light Mode</option>
+                <option value="dark">Dark Mode</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <section>
+            <!-- Inline style applied to h1 -->
+            <h1 style="font-family: 'Playwrite MX', cursive; font-weight: 1000; font-size: 3em; color: #222831;">Welcome to Travel Explorer</h1>
+            <p>Plan your perfect trip to Austin, Texas, with our tailored tour planning service. Discover the best attractions, local hotspots, and unique experiences the city has to offer.</p>
+            <video autoplay loop >
+                <source src="https://player.vimeo.com/progressive_redirect/playback/788833308/rendition/1080p/file.mp4?loc=external&signature=667252bd993109926ebb010d62c61949adb9db454afe707fcd2b78e0443c7d5b" type="video/mp4">
+                Visit Austin Video
+            </video>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Travel Explorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE; /* Light Gray as base */
+    color: #222831; /* Dark Gray for text */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #222831; /* Dark Gray for header */
+    color: #EEEEEE; /* Light Gray for text */
+    padding: 15px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #EEEEEE; /* Light Gray for links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00ADB5; /* Teal for hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222831; /* Dark Gray for footer */
+    color: #EEEEEE; /* Light Gray for text */
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+/* Mode Toggle Styles */
+.mode-toggle {
+    margin-top: 10px;
+}
+
+#theme-select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #EEEEEE; /* Light Gray background */
+    color: #222831; /* Dark Gray text */
+    border: 1px solid #393E46; /* Slate Gray border */
+    cursor: pointer;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #222831; /* Dark Gray as base */
+    color: #EEEEEE; /* Light Gray for text */
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #393E46; /* Slate Gray for contrast */
+}
+
+body.dark-mode nav ul li a {
+    color: #EEEEEE; /* Light Gray for links */
+}
+
+body.dark-mode nav ul li a:hover {
+    color: #00ADB5; /* Teal for hover */
+}
+
+body.dark-mode #theme-select {
+    background-color: #393E46; /* Slate Gray background */
+    color: #EEEEEE; /* Light Gray text */
+    border: 1px solid #00ADB5; /* Teal border */
+}
+
+/* Video Styles */
+main video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #00ADB5; /* Teal border */
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #393E46; /* Slate Gray for borders */
+    padding: 10px;
+}
+
+th {
+    background-color: #393E46; /* Slate Gray for header */
+    color: #EEEEEE; /* Light Gray text */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    background: #EEEEEE; /* Light Gray background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #393E46; /* Slate Gray border */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #222831; /* Dark Gray background */
+    color: #00ADB5; /* Teal text */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #393E46; /* Slate Gray on hover */
+}
+
+/* Destinations Page */
+.destinations-page {
+    background-color: #EEEEEE; /* Light Gray */
+    text-align: center;
+}
+
+/* Destinations Container */
+.destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Destination Card */
+.destination-card {
+    background: #EEEEEE; /* Light Gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.destination-card img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #00ADB5; /* Teal border */
+}
+
+.destination-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #222831; /* Dark Gray for titles */
+}
+
+.destination-card p {
+    font-size: 14px;
+    color: #393E46; /* Slate Gray for text */
+}
+
+/* Hover Effect */
+.destination-card:hover {
+    transform: scale(1.05);
+}
+
+/* Dark Mode Adjustments */
+body.dark-mode .destination-card {
+    background: #393E46; /* Slate Gray background */
+    color: #EEEEEE; /* Light Gray text */
+}
+
+body.dark-mode .destination-card p {
+    color: #EEEEEE; /* Light Gray for text */
+}
+
+body.dark-mode form {
+    background: #393E46; /* Slate Gray background */
+    color: #EEEEEE; /* Light Gray text */
+}
