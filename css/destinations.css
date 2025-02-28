@@ -28,6 +28,8 @@
 }
 
 .destination-card h2 {
+    font-family: 'Playwrite MX';
+    font-weight: 200;
     font-size: 22px;
     margin: 10px 0;
     color: #222831;

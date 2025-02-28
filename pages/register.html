@@ -8,25 +8,30 @@
     <link rel="stylesheet" href="../css/register.css" />
     <script src="../js/validation.js" ></script>
     <script defer src="../js/darkMode.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+    
     
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="destinations.html">Destinations</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="register.html">Register</a></li>
-        </ul>
-         <div class="mode-toggle">
-          <select id="theme-select">
-            <option value="light">Light Mode</option>
-            <option value="dark">Dark Mode</option>
-          </select>
-        </div>
+          <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="destinations.html">Destinations</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="register.html">Register</a></li>
+          </ul>
       </nav>
-    </header>
+      <div class="mode-toggle">
+          <select id="theme-select">
+              <option value="light">Light Mode</option>
+              <option value="dark">Dark Mode</option>
+          </select>
+      </div>
+  </header>
     <main>
       <div class="container">
         <h1>Create an Account</h1>
@@ -46,10 +51,11 @@
           <select id="refer" name="refer">
             <option value="" disabled selected>How did you hear about us?</option>
             <option value="facebook">Facebook</option>
-            <option value="linkedin">Instagram</option>
-            <option value="google">Tiktok</option>
+            <option value="instagram">Instagram</option>
+            <option value="tiktok">Tiktok</option>
           </select>
           <div class="error-message" id="referError">Please select an option</div>
+
           <fieldset class="contact-method">
             <legend>Preferred Contact Method</legend>
             <label><input type="radio" name="contact" value="email" /> Email</label>
