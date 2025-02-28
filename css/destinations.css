@@ -1,10 +1,4 @@
 /* Destinations Page */
-.destinations-page {
-    background-color: #EEEEEE;
-    text-align: center;
-    padding: 20px;
-}
-
 /* Destinations Container */
 .destinations-container {
     display: flex;

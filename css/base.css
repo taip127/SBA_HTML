@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-family: 'Playwrite MX', cursive; 
-    font-weight: 300; 
+    font-weight: 400; 
     font-size: 2.5em; 
     color: #222831;
 }
@@ -63,6 +63,7 @@ footer {
 /* Mode Toggle Styles */
 .mode-toggle {
     margin-top: 10px;
+    align-self: center;
 }
 
 #theme-select {
