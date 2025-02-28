@@ -1,20 +1,16 @@
-/* Updated register.css */
 
 .container {
     display: flex;
-    justify-content: center; /* Centers children horizontally */
-    align-items: center; /* Centers children vertically */
-    height: 100vh; /* Full viewport height */
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
     flex-direction: column;
-    max-width: 500px; /* Set a smaller max-width (adjust as needed) */
-    width: 100%; /* Ensures it scales down responsively */
-    margin: 0 auto; /* Centers the container horizontally within its parent */
-    padding: 20px; /* Optional: adds some internal spacing */
-    box-sizing: border-box; /* Ensures padding doesn’t increase width */
+    max-width: 500px;
+    width: 100%; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box; 
 }
-
-
-
 form {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,4 @@
-/* Destinations Page */
-/* Destinations Container */
+
 .destinations-container {
     display: flex;
     flex-wrap: wrap;
@@ -74,5 +73,5 @@ body.dark-mode .destination-card p {
 }
 
 .destination-card a:hover {
-    color: #007bff;        /* Color when hovered (change to your desired color) */
+    color: #007bff;        /* Color when hovered */
 }
